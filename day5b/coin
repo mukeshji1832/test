@@ -1,0 +1,8 @@
+#i/bin/bash-x
+Coin=$(($RANDOM%2))
+if [ $Coin -eq 1 ]
+then
+echo "heads:" $Coin
+else
+echo "tails"
+fi

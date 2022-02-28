@@ -1,0 +1,27 @@
+# !/bin/bash
+read -p "Enter the Week day:" Day
+if [ "$Day" = "1" ]
+then
+echo "Monday."
+elif [ "$Day" = "2" ]
+then
+echo "Tuesday."
+elif [ "$Day" = "3" ]
+then
+echo " Wednesday"
+elif [ "$Day" = "4" ]
+then
+echo " Thursday"
+elif [ "$Day" = "5" ]
+then
+echo " Friday "
+elif [ "$Day" = "7" ]
+then
+echo " Sunday."
+elif [ "$Day" = "6" ]
+then
+echo "saturtday"
+else
+echo "In 1 Week only have 7 days :"
+fi
+

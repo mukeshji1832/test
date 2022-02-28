@@ -1,0 +1,11 @@
+#i/bin/bash
+echo " Enter The Date: "
+read Date
+echo " Enter The Month: "
+read Month
+if (( ($Month <= 6 && $Date <= 20) && (($Month >= 3 && $Date <= 20) && ($Date<31)) ))
+then
+echo $Month"Month" $Date "Date" " True ";
+else
+echo " False (Please enter valid date and months) ";
+fi

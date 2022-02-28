@@ -1,0 +1,17 @@
+#i /bin/bash -x
+read -p "Enter the Number 1 10 100 1000:" Unit
+if [ "$Unit" = "10" ]
+then
+echo " Ten."
+elif [ "$Unit" = "1" ]
+then
+echo "One"
+elif [ "$Unit" = "100" ]
+then
+echo "Hundred."
+elif [ "$Unit" = "1000" ]
+then
+echo "One Thousand" ]
+else
+echo "Pleas check the digit" 
+fi
